@@ -5,22 +5,105 @@
     <meta name="author" content="David Paredes">
     <title>Menu.html</title>
     <style>
+       body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            background-color: aqua;
+            padding: 10px;
+        }
+
+        .titulo {
+            padding-left: 25%;
+            text-align: center;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .imagen {
+            width: 150px; 
+            height: auto;
+        }
+        main{
+            display: flex;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background:rgb(254, 251, 233);
+
+        }
+        table,td{
+            margin: auto;
+            border: #ed1a1a 5px dotted;
+            border-collapse: collapse;
+
+        }
+        .Menu{
+            background-color: #78f35a8c;
+            text-align: center;
+            width: 500px;
+        }
+         li{
+        font-family: cursive;     
+        
+        }
        
+
 
     </style>
 </head>
 <body>
     <header>
-
+        <div >
+            <a href="/proyecto /paginaprincipal.html"><img class="imagen" src="/proyecto /imagenes/logo.png" alt="Logo" /></a>
+        </div>
+        <div class="titulo"> 
+            <h1>EL Gran Restaurante de David</h1>
+        </div>
 
     </header>
     <main>
+        <table >
+            <tr>
+                <td class="Menu"><strong>MENÚ</strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <ol>
+                        <li>Entrante
+                            <ul>
+                                <li>Ensalada César</li>
+                                <li>Sopa de Tomate</li>
+                            </ul>
+                        </li>
+                        <li>Primero
+                            <ul>
+                                <li>Pasta al Pesto</li>
+                                <li>Risotto de Hongos</li>
+                            </ul>
+                        </li>
+                        <li>Segundo
+                            <ul>
+                                <li>Filete de Res</li>
+                                <li>Salmón a la Plancha</li>
+                            </ul>
+                        </li>
+                        <li>Postre
+                            <ul>
+                                <li>Tarta de Chocolate</li>
+                                <li>Helado de Vainilla</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    
 
     </main>
     <footer>
-
-
-        
+     
     </footer>
 
     
