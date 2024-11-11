@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+            <nombre>catwuoman</nombre>
+            <autor>
+                <nombre>
+                    juan
+                </nombre>
+
+            </autor>
+            <autor>
+                <nombre>
+                    steve
+                </nombre>
+
+            </autor>
+            <año>2005</año>
+    </libro>
+
+    <libro>
+        <nombre>miau</nombre>
+        <autor>
+            <nombre1>
+                samuel
+            </nombre1>
+           
+
+        </autor>
+        <año>5654</año>
+    </libro>    
+    <libro>
+    <nombre>guau</nombre>
+    <autor>
+        <nombre1>
+            juan
+        </nombre1>
+        
+
+    </autor>
+    <año>4845</año>
+    </libro>
+
+</biblioteca>
